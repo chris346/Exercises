@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+<style>
+	.container {
+		display: flex;
+		height: 600px;
+		width: 600px;
+		background-color: blue;
+		margin: 50px;
+		background:radial gradient (black, black), url();
+	}
+
+	aside {
+		background-color: yellow;
+		width: 100px;
+
+	}
+
+	aside div {
+		background-color: green;
+		width:75px;
+		height: 50px;
+		margin-top:-20px;
+		margin-left:10px;
+	}
+	p {
+		background-color: pink;
+		margin-top: 0;
+
+	}
+	/*p:first-child {
+		margin-top: -20px;
+	}*/
+	a {
+		background-image:url(https://lh6.ggpht.com/gfuEipOHSaM908smQxltaCnmbeGeurtiMzATidBCJEbnDie_ar_UBKJk-f703-BG1w=w300;);
+		background-size: 30%;
+		background-repeat: no-repeat;
+		padding-left: 20px;
+
+	}
+	main > * + * {
+		padding: 10px;
+		margin: 10px;
+	}
+
+	.center {
+		background-color: aqua;
+		text-align: center;
+		width:100px;
+		height:400px;
+		padding: 5px;
+		display: inline;
+	}	
+
+</style>
+
+
+</head>
+<body>
+	<div class ="container">
+		<aside>
+			<div>
+				
+					Menu 1
+				
+			</div>
+		</aside>
+		<main>
+			<p>Lorem <a href="https://plus.google.com/">ipsum</a> dolor sit amet, consectetur adipisicing elit. Maiores eveniet quod repellendus molestias at veritatis tenetur obcaecati sapiente rerum commodi, excepturi asperiores, iste minima reiciendis in. Ipsam totam velit deserunt.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores nihil aliquid impedit facere dolorem placeat praesentium doloremque, sapiente architecto fugit hic nisi ut ipsum blanditiis ullam. Iusto molestiae, numquam esse.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid odit, quasi voluptate eveniet doloribus saepe minus ut nesciunt molestiae quis maiores laboriosam tempore vitae fugit iusto sed commodi quia dolorum!</p>
+
+
+		</main>
+		
+		<div class="center">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem incidunt enim dolores inventore ab unde consequuntur, voluptatibus esse debitis neque, repellat labore possimus dolore pariatur, cum saepe libero cumque sapiente!
+
+		</div>
+
+
+	</div>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.3/handlebars.js"></script>
+    <script src="scripts.js"></script>
+	<script>
+    	$("document").ready(function(){
+
+    		$("#box").on("click", whenMouseIsClicked);
+    		
+    		$("#box").on("mouseleave", whenMouseLeaves);
+    		
+    		
+
+    		function whenMouseIsClicked() {
+
+    		$("#box").html("<h4>Hey You Clicked Me</h4>");
+
+    		}
+
+    		function whenMouseLeaves() {
+
+    		$("#box").html("<h4>Hey You Where are you going</h4>");
+
+    		}
+
+		});
+    </script>
+  
+
+    <style>
+		#box {
+			width:100px;
+			height:100px;
+			border: 1px solid black;
+
+		
+		}
+
+	</style>
+	</head>
+	<body>
+		
+	<div id="box">
+		
+
+
+	</div>
+
+	</body>
+</html>

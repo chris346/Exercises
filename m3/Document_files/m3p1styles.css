@@ -1,0 +1,217 @@
+
+
+form {
+    position: relative;
+    top: -65px;
+    right: -824px;
+    margin: 0;
+}
+	
+
+/*************************/
+.tophero {
+	background-color: blue;
+}
+
+.tophero {
+	background-color: blue;
+	height: 90px;
+}
+
+.title1 {
+	font-family: "Lobster";  /*Title: "Puppy Love"*/
+	font-size: 40px;
+	color: white;
+	width: 175px;
+	padding: 0;
+
+}
+
+.hero div:nth-child(2) .outerbar {			/*outer div of menu bar;(ref:Youtube:CSS Part 3; Brad Westfall"*/
+ position: relative;
+
+}
+
+.hero div:nth-child(2) .innerbar {			/*inner div of menu bar*/
+	background-color: green;
+	color: white;
+	text-decoration:none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 0 auto;
+	position: relative;
+	height: auto;
+	text-align: center;
+	display: flex;
+
+}
+
+.hero .innerbar a {   /*Links in menu bar*/
+	color: white;
+	font-family: "Open Sans";
+	font-size: 14px;
+	text-decoration:none;
+	margin: 17px;
+	position: relative;
+	flex: 1;
+
+}
+
+
+
+.bottomhero {
+	background-color: aqua;
+	height: 480px;
+ 	padding:30px;
+ 	position: relative;
+	
+}
+
+.greathero {
+	background-color: magenta;
+	height: 170px;
+	color: white;
+	text-align: center;
+	font-size: 25px;
+	font-family: "Open Sans";
+	font-weight: lighter;
+	top:285px;
+	position: absolute;
+	width: 100%;
+}
+
+p.title2 {
+	font-size: 25px;
+	margin: inherit;
+}
+
+p.content2 {
+	font-size: 12px;
+	font-family: "Open Sans";
+	font-size: 10px;
+}
+
+
+/**********************PRIMARY CONTENT***********************************/
+
+/*THIS IS THE BOTTOM PORTION*/
+div.primary-content {
+	background-color: purple;
+	padding-left: 109px;
+	padding-right: 109px;
+}
+/****************************/
+
+.primary-container {
+
+}
+
+.topprimary{
+	display: flex;
+	background-color: green;
+	padding-left:10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+.primechild {
+	height:300px;
+	width:120px;
+	display: inline-block;
+	background-color: lime;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 0px;
+	transform: translate(0px, -15px);
+	text-align: center;
+	flex: 1;
+}
+
+/***************************************************************/
+.primechild:first-child {
+	color: black;
+
+	
+}
+
+.primechild:nth-child(2) {
+	color: black;
+}
+
+
+.primechild:nth-child(3){
+	color: black;
+}
+
+
+
+
+/***************************************************************/
+.bottomprimary {
+	height:570px;
+	display: flex;
+	background-color:salmon;
+
+}
+
+
+/**********************************/
+div.left {
+display: inline;
+height:450px;
+background-color: lime;
+flex: 1.5;
+}
+
+.left div {
+	background-color: red;
+	height:130px;
+	margin:10px;
+	overflow:hidden;
+}
+
+.left div aside {
+background-color:#eee;
+height: 130px;
+width: 130px;
+float:left;
+}
+
+.left div div {
+	background-color:yellow;
+	margin: 0;
+	height: 50px;
+
+}
+
+aside.leftimage1 {
+	background: url(dog1.png);
+	background-size: 100% 100%;
+}
+aside.leftimage2 {
+	background: url(dog2.png);
+	background-size: 100% 100%;
+}
+aside.leftimage3 {
+	background: url(dog3.png);
+	background-size: 100% 100%;
+}
+
+/**********************************/
+
+
+div.right {
+display: inline;
+background-color: blue;
+flex: 2.5;
+height:550px;
+
+}
+
+.right div {
+	background-color:red;
+	display:inline-block;
+	margin: 10px;
+	height: 340px;
+	width: 354px;
+}

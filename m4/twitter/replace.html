@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.3/handlebars.js"></script>
+    <script src="scripts.js"></script>
+	<script>
+    	$("document").ready(function(){
+
+    	var newPara = $("p");
+
+    	newPara.append("<i>Hello students</i>");
+
+    	$("#box").html(newPara);
+		
+
+		});
+    </script>
+	</head>
+	<body>
+		
+		<div id="box">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius quis minus possimus repellat quos sapiente enim ut cupiditate, corporis alias accusamus numquam, vel similique quaerat deleniti quibusdam, perferendis maxime, consequatur?</p>
+
+		</div>
+
+
+	</body>
+</html>

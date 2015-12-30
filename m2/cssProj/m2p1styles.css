@@ -1,0 +1,236 @@
+/****************************************
+  Inherited Syles
+*****************************************/
+
+/*
+See this explanation for details
+https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+*/
+
+html {
+    box-sizing: border-box;
+    color: #444;
+    font: 12pt 'Open Sans', Arial;
+    font-weight: 300;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    color: inherit;
+    font: inherit;
+}
+
+
+/****************************************
+  Defaults
+*****************************************/
+body {
+	background-color: #0182C3;
+}
+
+div.parent {
+	display: flex;
+	background color: black;
+}
+
+.title {
+	font-family: Open Sans;
+}
+
+/****************************************
+  Layout
+*****************************************/
+div.firstLayout {
+	width: 300px;
+	height: 470px;
+	background-color: white;
+	font-family: Open Sans;
+	flex: 1;
+	border: solid  #7FC0E0 5px;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-radius: 15px;
+}
+div.secondLayout {
+	width: 300px;
+	height: 500px;
+}
+
+div.content {
+	margin: 20px;
+}
+
+/****************************************
+  Components
+*****************************************/
+
+.firstname {
+	background-color:white;
+	text-align: right;
+	width:1013px;
+	margin-bottom: -20px;
+	padding-right:565px;
+	padding-bottom:5px;
+	border-bottom: solid  #ccc 2px;
+}
+
+.lastname {
+	background-color:white;
+	text-align: right;
+	width:1013px;
+	margin: 0px;
+	margin-bottom: -20px;
+	padding-top: 5px;
+	padding-right:565px;
+	padding-bottom: 5px;
+	border-bottom: solid  #ccc 2px;
+}
+
+.email {
+	background-color:white;
+	text-align: right;
+	width:1013px;
+	padding-top: 5px;
+	padding-right:565px;
+	padding-bottom: 5px;
+	margin-bottom: 2px;
+	border-bottom: solid  #ccc 2px;
+}
+
+button:first-child {
+	background: #97D062;
+	color: white;
+	border-radius:3px;
+	border: none;
+	padding: 5px;
+	margin-left: 20px;
+	box-shadow: 2px 2px 2px black;
+	font-size: 16px;
+}
+
+button:last-child {
+	background: #D00000;
+	color: white;
+	border-radius:3px;
+	border: none;
+	padding: 5px;
+	margin: 0px;
+	box-shadow: 2px 2px 2px black;
+	font-size: 16px;
+}
+
+/****************************************/
+body {
+	background-color: #0182C3;
+}
+
+div.parent {
+	display: flex;
+	background color: black;
+}
+
+.title {
+	font-family: Allan;
+}
+
+div.firstLayout {
+	background-color: white;
+	width: 300px;
+	height: 500px;
+	font-family: Open Sans;
+	flex: 1;
+	border: solid  #7FC0E0 5px;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-radius: 15px;
+
+}
+
+div.content {
+	margin: 20px;
+
+}
+
+div.secondLayout {
+	width: 300px;
+	height: 470px;
+
+}
+
+div.second {
+	background-color: white;
+	font-family: Open Sans;
+	font-weight: 300;
+	flex: 3;
+	border: solid  #7FC0E0 5px;
+	border-radius: 15px;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+
+div.content {
+	margin: 20px;
+
+}
+
+button:first-child {
+	background: #97D062;
+	color: white;
+	border-radius:3px;
+	border: none;
+	padding: 5px;
+	margin-left: 20px;
+	box-shadow: 2px 2px 2px black;
+	font-size: 16px;
+}
+
+button:last-child {
+	background: #D00000;
+	color: white;
+	border-radius:3px;
+	border: none;
+	padding: 5px;
+	margin: 0px;
+	box-shadow: 2px 2px 2px black;
+	font-size: 16px;
+}
+
+
+.firstname {
+	background-color:white;
+	text-align: right;
+	width:1375px;
+	margin-bottom: -20px;
+	padding-right:935px;
+	padding-bottom:5px;
+	border-bottom: solid  #ccc 2px;
+}
+
+.lastname {
+	background-color:white;
+	text-align: right;
+	width:1375px;
+	margin: 0px;
+	margin-bottom: -20px;
+	padding-top: 5px;
+	padding-right:935px;
+	padding-bottom: 5px;
+	border-bottom: solid  #ccc 2px;
+}
+
+.email {
+	background-color:white;
+	text-align: right;
+	width:1375px;
+	padding-top: 5px;
+	padding-right:935px;
+	padding-bottom: 5px;
+	margin-bottom: 2px;
+	border-bottom: solid  #ccc 2px;
+	
+}
+

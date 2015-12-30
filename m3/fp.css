@@ -1,0 +1,74 @@
+.parent {
+	background-color: teal;
+	padding: 0px;
+	width: 1156px;
+	height: 1150px;
+
+}
+
+header {
+	background-color: red;
+	padding: 4px;
+	box-sizing: border-box;
+	height: 97px;
+}
+
+nav{
+	position: relative;
+	background-color: green;
+	color: white;
+	text-decoration:none;
+	height: 37px;
+	padding-top: 15px;
+	padding-bottom: 0px;
+	border-bottom: white solid 1px;
+	border-top: white solid 1px;
+
+}
+.hero {
+	width: 960px;
+	background-color:lime;
+	padding-left: 99px;
+	padding-right: 99px;
+}
+
+.bottomHero {
+	width: 960px;
+	height: 400px;
+	background-color:blue;
+	display: flex;
+	
+}
+
+aside {
+	background-color: yellow;
+	flex:1;
+	height:100%;
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+
+aside div {
+	height:100%;
+	weight:100%;
+	font-family:Open Sans;
+}
+
+.img {
+	flex:2;
+	height:100%;
+	width: 100%;
+}
+
+video{
+	height: 100%;
+}
+
+.primary {
+	width: 960px;
+	height: 960px;
+	background-color:red;
+	padding-left: 99px;
+	padding-right: 99px;
+}

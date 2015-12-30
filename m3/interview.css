@@ -1,0 +1,22 @@
+.mustang {
+	background-color: black;
+	height: 300px;
+	width: 300px;
+	display: flex;
+}
+
+.sally {
+	background: blue;
+	height: 30px;
+	width: 30px;
+	flex:1;
+	margin:2px;
+
+}
+
+.sally p {
+	padding:0;
+	margin:0;
+}
+
+

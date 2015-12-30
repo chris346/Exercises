@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.3/handlebars.js"></script>
+    <script>
+    $(function() {
+        var source = $('#entry-template').html();
+        var template = Handlebars.compile(source);
+
+        $('button').click(function() {
+            var title = $('#title').val();
+            var body = $('#body').val();
+
+            var context = {
+                title: title,
+                body: body,
+                user: {
+                    name: 'Daniel',
+                    age: 40
+                }
+            };
+
+            var html = template(context);
+
+            $('.tweets').append(html);
+        });
+
+    });
+
+    </script>
+</head>
+<body>
+
+    Title: <input type="text" id="title"><br>
+    Body: <input type="text" id="body">
+    <button>Tweet</button>
+
+    <div class="tweets"></div>
+
+    <script id="entry-template" type="text/x-handlebars-template">
+      <div class="entry">
+        <h1>{{title}}</h1>
+        <div class="body">
+          {{body}}
+          {{user.name}}
+        </div>
+      </div>
+    </script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+div {
+	border-style:solid;
+	border-width:2px;
+	padding:10px;
+	background-color: white;
+	margin:-8px;2
+
+}
+div.middle {
+	background-color: rgba(255, 255, 255, 0.9);
+	margin-top: 10px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    border-radius: 25px;
+    border:none;
+	margin-top: 10px;
+}
+
+
+div.bar {
+	background-color: #333;
+	margin:10px;
+	margin-top: 90px;
+	margin-right: -8px;
+    margin-left: -8px;
+}
+
+.footer {
+	padding:35px;
+	background-color: rgba(255, 255, 255, 0.0);
+	border:none;
+	color:white;
+	font-size:22px;
+}
+body {
+  background:
+   	url(leafBackground.jpg) repeat;
+}
+
+.title {
+	font-family: lobster;
+	font-size: 100px;
+	padding:0px;
+	margin-top: 100px;
+    margin-bottom: 0px;
+    color: #333;
+  	text-decoration: none;
+}
+
+.titlebar {
+	background-color:white;
+	margin-top: -100px;
+    margin-bottom: -90px;
+    margin-right: -8px;
+    margin-left: -8px;
+    border:none;
+    text-decoration: none;
+}
+
+.font2 {
+	font-family: Lato;
+}
+
+.color {
+	color: #46BB07;
+}
+
+.color2{
+	color:white;
+}
+
+.title a:visited {
+	color: #333;
+	
+}
+
+.title a {
+	text-decoration:none;
+}
+
+.bar a {
+	text-decoration:none;
+	font-size: 20px;
+	}
+
+.bar{
+	color:white;
+	word-spacing:25px;
+}
+
+.middle a {
+	text-decoration:none;
+
+}
+
+.middle a:visited {
+	color:#46BB07;
+	
+}
+
+.middle p {
+	font-weight:100;
+	margin-top: 10px;
+    margin-bottom: 15px;
+
+
+}
+form {
+	display: inline;
+}
+
+div.middle p.color {
+font-size: 70px;
+}
+
+.contact {
+	font-size:20px;
+	color:#46BB07;
+	line-height: 70%;
+	font-family: Lato;
+}
+form input {
+	margin-bottom:15px;
+}
+
+

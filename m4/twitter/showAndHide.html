@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.3/handlebars.js"></script>
+    <script src="scripts.js"></script>
+	<script>
+    	$("document").ready(function(){
+
+    		$("#show").on("click", function(){
+
+    			$("#box").show();
+
+			});
+
+			$("#hide").on("click", function(){
+
+    			$("#box").hide();
+
+			});
+    		
+
+		});
+    </script>
+
+    <style>
+		#box {
+		display: none;
+		}
+	</style>
+  
+
+    
+	</head>
+	<body>
+		<a id="show" href="#">Click to show</a><br><br>
+		<a id="hide" href="#">Click to hide</a>
+		<div id="box">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora saepe, non iste itaque labore velit obcaecati, aperiam odit sapiente sequi perspiciatis aut dolorum ut doloremque at nemo. Consequuntur, doloribus, expedita!</p>
+
+			<h2>CHRIS WAS HERE!</h2>
+
+		</div>
+	
+	</body>
+</html>
